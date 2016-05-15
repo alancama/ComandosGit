@@ -13,11 +13,11 @@ git reset numerocommit -- Sirve para eliminar un commit.
 git revert HEAD -- Revierte el ultimo cambio
 git push -- para subir nuestro repositorio a github(Hay que colocar el id y la clave)
 git remote add (nombre) (url) -- Para crear un repositorio en github
-
+git push (nombrerepositorio) -- para subir nuestro repositorio a github(Hay que colocar el id y la clave)
 
 //Trabajar con ramas
 
 git branch -- Te muestra todas las ramas que hay
 git branch (nombrerama) -- Te crea una nueva rama.
 git checkout (nombrerama) -- Nos cambia de rama.
-git checkout -b (nombrerama) -- Nos crea y cambia a una rama
+git checkout -b (nombrerama) -- Nos crea y cambia a una rama.
