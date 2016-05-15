@@ -12,6 +12,7 @@ git reset HEAD nombrearchivo -- Sirve para descartar los cambios pero que estan 
 git reset numerocommit -- Sirve para eliminar un commit.
 git revert HEAD -- Revierte el ultimo cambio
 git push -- para subir nuestro repositorio a github(Hay que colocar el id y la clave)
+git remote add (nombre) (url) -- Para crear un repositorio en github
 
 
 //Trabajar con ramas
