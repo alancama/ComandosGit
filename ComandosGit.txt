@@ -1,0 +1,22 @@
+git init -- Me crea un repositorio
+git add -- Me agrega un cambio al stated
+git commit -- Me agrega el stated al commit
+git log -- Veo todos los commit que haya hecho
+git log --oneline -- Me muestra todos los commit, pero solo en una linea.
+git log --decorate -- Muestra el commit como la rama master
+git status-- Sirve para ver el estado de los cambios
+git diff (primercommit, segundocommit)-- Muestra las diferencias entre un cambio u otro.
+git commit --amend -- Sirve para meter un cambio en el ultimo commit enviado
+git checkout -- nombrearchivo -- Sirve para descartar los cambios que no esten en el stated
+git reset HEAD nombrearchivo -- Sirve para descartar los cambios pero que estan en el add(stated)
+git reset numerocommit -- Sirve para eliminar un commit.
+git revert HEAD -- Revierte el ultimo cambio
+git push -- para subir nuestro repositorio a github(Hay que colocar el id y la clave)
+
+
+//Trabajar con ramas
+
+git branch -- Te muestra todas las ramas que hay
+git branch (nombrerama) -- Te crea una nueva rama.
+git checkout (nombrerama) -- Nos cambia de rama.
+git checkout -b (nombrerama) -- Nos crea y cambia a una rama.
