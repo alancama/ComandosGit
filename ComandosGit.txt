@@ -20,4 +20,4 @@ git remote add (nombre) (url) -- Para crear un repositorio en github
 git branch -- Te muestra todas las ramas que hay
 git branch (nombrerama) -- Te crea una nueva rama.
 git checkout (nombrerama) -- Nos cambia de rama.
-git checkout -b (nombrerama) -- Nos crea y cambia a una rama.
+git checkout -b (nombrerama) -- Nos crea y cambia a una rama
