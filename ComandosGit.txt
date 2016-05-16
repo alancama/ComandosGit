@@ -26,3 +26,7 @@ git branch -m (nombreviejo) (nuevonombre) //Cambiar el nombre de una rama
 git branch -d (nombrerama) //Me borra una rama
 git branch -h //Muestra el historial de opciones para branch
 git merge (nombrerama) //Funciona una rama con otra.
+
+
+//Atajos (alias)
+
