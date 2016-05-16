@@ -15,6 +15,7 @@ git revert HEAD  //Revierte el ultimo cambio
 git push //para subir nuestro repositorio a github(Hay que colocar el id y la clave)
 git remote add (nombre) (url) //Para crear un repositorio en github
 git push (nombrerepositorio) //para subir nuestro repositorio a github (la primera vez)
+git unstage (nombrearchivo) //Me quita del stated el codigo que haya puesto con el add.
 
 //Trabajar con ramas
 
@@ -26,7 +27,11 @@ git branch -m (nombreviejo) (nuevonombre) //Cambiar el nombre de una rama
 git branch -d (nombrerama) //Me borra una rama
 git branch -h //Muestra el historial de opciones para branch
 git merge (nombrerama) //Funciona una rama con otra.
+git merge --abort // Me aborta la funcion entre ramas.
 
 
 //Atajos (alias)
+git config --global alias.(nombrealia) 'Comando de git para abreviar' //Crea un alias para los ccomandos largos
+git config --global --get-regexp alias // Muestra todos losa lias que haya creado.
+git config --global --unset alias.(nombrealia) // Elimina un alias.
 
