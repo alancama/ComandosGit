@@ -4,6 +4,7 @@ git commit //Me agrega el stated al commit
 git log  //Veo todos los commit que haya hecho
 git log --oneline  //Me muestra todos los commit, pero solo en una linea.
 git log --decorate //Muestra el commit como la rama master
+git log --decorate --all //Muestra todos los commits de todas las ramas.
 git status  //Sirve para ver el estado de los cambios
 git diff (primercommit, segundocommit)  //Muestra las diferencias entre un cambio u otro.
 git commit --amend //Sirve para meter un cambio en el ultimo commit enviado
@@ -14,6 +15,7 @@ git revert HEAD  //Revierte el ultimo cambio
 git push //para subir nuestro repositorio a github(Hay que colocar el id y la clave)
 git remote add (nombre) (url) //Para crear un repositorio en github
 git push (nombrerepositorio) //para subir nuestro repositorio a github (la primera vez)
+git unstage (nombrearchivo) //Me quita del stated el codigo que haya puesto con el add.
 
 //Trabajar con ramas
 
@@ -24,3 +26,12 @@ git checkout -b (nombrerama) //Nos crea y cambia a una rama.
 git branch -m (nombreviejo) (nuevonombre) //Cambiar el nombre de una rama
 git branch -d (nombrerama) //Me borra una rama
 git branch -h //Muestra el historial de opciones para branch
+git merge (nombrerama) //Funciona una rama con otra.
+git merge --abort // Me aborta la funcion entre ramas.
+
+
+//Atajos (alias)
+git config --global alias.(nombrealia) 'Comando de git para abreviar' //Crea un alias para los ccomandos largos
+git config --global --get-regexp alias // Muestra todos losa lias que haya creado.
+git config --global --unset alias.(nombrealia) // Elimina un alias.
+
