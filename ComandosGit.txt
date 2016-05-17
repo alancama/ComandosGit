@@ -45,5 +45,5 @@ git show (nombretag) //Me muestra los detalles del tag anotado.
 git stash save "Mensaje que quiero que tenga el stash" //Me sirve para guardar los cambios que aun no he terminado, y que no quiero perder.
 git stash list //Me sirve para listar los stash hechos.
 git stash apply //Me aplica el ultimo stash, (se ordenan en forma de pila)
-git stash drop //Me elimina un stash
+git stash drop //Me elimina un stash.
 
