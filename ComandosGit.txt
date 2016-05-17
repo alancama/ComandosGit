@@ -34,4 +34,16 @@ git merge --abort // Me aborta la funcion entre ramas.
 git config --global alias.(nombrealia) 'Comando de git para abreviar' //Crea un alias para los ccomandos largos
 git config --global --get-regexp alias // Muestra todos losa lias que haya creado.
 git config --global --unset alias.(nombrealia) // Elimina un alias.
+git tag (nombredetag) (numerocommit) //Sirve para etiquetar algun commit, esto es muy ulti para las versiones}
+git tag //te muestra las diferentes etiquetas.
+git tag -l "filtrotag" //Me muestra aquellos tag que cumplan con el filtro
+git tag -a (nombretag) (numerotag) //Me crea un tag anotado, con mas detalles
+git show (nombretag) //Me muestra los detalles del tag anotado.
+
+
+//Guardar en Stash 
+git stash save "Mensaje que quiero que tenga el stash" //Me sirve para guardar los cambios que aun no he terminado, y que no quiero perder.
+git stash list //Me sirve para listar los stash hechos.
+git stash apply //Me aplica el ultimo stash, (se ordenan en forma de pila)
+git stash drop //Me elimina un stash.
 
