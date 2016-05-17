@@ -46,4 +46,5 @@ git stash save "Mensaje que quiero que tenga el stash" //Me sirve para guardar l
 git stash list //Me sirve para listar los stash hechos.
 git stash apply //Me aplica el ultimo stash, (se ordenan en forma de pila)
 git stash drop //Me elimina un stash.
+git stash -h //Me muestra las diferentes opciones del comando.
 
