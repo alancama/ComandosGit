@@ -12,9 +12,11 @@ git checkout -- nombrearchivo //Sirve para descartar los cambios que no esten en
 git reset HEAD nombrearchivo //Sirve para descartar los cambios pero que estan en el add(stated)
 git reset numerocommit //Sirve para eliminar un commit.
 git revert HEAD  //Revierte el ultimo cambio
-git push //para subir nuestro repositorio a github(Hay que colocar el id y la clave)
+git push (nombreremoto) (rama)//para subir nuestro repositorio a github(Hay que colocar el id y la clave)
 git remote add (nombre) (url) //Para crear un repositorio en github
 git push (nombrerepositorio) //para subir nuestro repositorio a github (la primera vez)
+git clone (url) //Para descargar el repositorio a nuestro ordenador.
+git pull (nombreremoto) (rama) //para actualizar el repositorio.
 git unstage (nombrearchivo) //Me quita del stated el codigo que haya puesto con el add.
 
 //Trabajar con ramas
