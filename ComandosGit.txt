@@ -18,6 +18,7 @@ git push (nombrerepositorio) //para subir nuestro repositorio a github (la prime
 git clone (url) //Para descargar el repositorio a nuestro ordenador.
 git pull (nombreremoto) (rama) //para actualizar el repositorio.
 git unstage (nombrearchivo) //Me quita del stated el codigo que haya puesto con el add.
+git fetch (nombreremoto) //Pregunta a un remoto si tiene novedades y luego las descarga. //Pero no las funciona a diferencia del pull que me lo hace todo.
 
 //Trabajar con ramas
 
